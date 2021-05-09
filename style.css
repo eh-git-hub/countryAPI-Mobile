@@ -1,0 +1,249 @@
+.body{
+    background: linear-gradient(to bottom right, #BC3131, #B5324D, #AC3370, #A5338C, #9E34A9);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: rgba(255,255,255,0.8);
+    padding: 20px;
+}
+
+.pageHeader{
+    margin: 0px;
+    font-size: 6rem;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+}
+
+.flex-score-counter {
+    display: flex;
+    justify-content: space-around;
+}
+
+#score{
+    font-size: 2rem;
+    margin: 20px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#counter{
+    font-size: 2rem;
+    margin: 20px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card{
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    list-style: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(30px);
+    font-weight: lighter;
+    font-size: 25px;
+    font-weight: lighter;
+    height: 30rem;
+    width: 80%;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+}
+
+#countryGuessInput{
+    text-align: center;
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#randomCountryButton {
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#submitButton{
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#restartButton{
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.flex-container{
+    /* display: flex;
+    align-items: flex-end; */
+    position: fixed;
+    bottom: 0;
+    left: 1;
+    color: rgba(255,255,255,0.8);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+}
+
+/* body {
+    background: linear-gradient(to bottom right, #BC3131, #B5324D, #AC3370, #A5338C, #9E34A9);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: rgba(255,255,255,0.8);
+    padding: 20px;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+}
+
+.flex-score-counter {
+    display: flex;
+    justify-content: space-around;
+}
+
+#score{
+    margin: 10px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#counter{
+    margin: 10px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card{
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    list-style: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(30px);
+    font-weight: lighter;
+    font-size: 25px;
+    font-weight: lighter;
+    height: 20rem;
+    width: 60%;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+}
+
+#countryGuessInput{
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#randomCountryButton {
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#submitButton{
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#restartButton{
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+#clearButton{
+    padding: 24px 32px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+    margin:5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: rgba(255,255,255,0.8);
+    font-weight: bold;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+} */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <title>Guess The Flag Responsive</title>
+</head>
+
+<html>
+<body class="body">
+    <h1 class=pageHeader>Guess The Flag!</h1>
+
+<section>
+    <div class=flex-score-counter>
+        <div id="score">score: 0</div>
+        <div id=counter>-1:59</div>
+    </div>
+</section>
+
+<section>
+    <div class="card"></div>
+    <div id="countryList"></div>
+</section>
+
+<section>
+    <div class="flex">
+        <input type="text" id="countryGuessInput" onfocus="this.value=''" value="ENTER YOUR GUESS:">
+        <!-- <button type="button" id="clearButton" onclick="document.getElementById('countryGuessInput').value = ''">CLEAR INPUT FIELD</button> -->
+        <button id="randomCountryButton" onclick="randomCountryGen()" type="button">RANDOM COUNTRY</button>
+        <button type="button" id="submitButton" onclick="countryGuessFunction(), scoreKeeper()">SUBMIT</button>
+        <button id="restartButton" onclick="location.reload()">RESTART</button>
+    </div>
+</section>
+
+<section>
+    <div class="flex-container">
+        <p>Edgar Hernandez</p>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html> 
