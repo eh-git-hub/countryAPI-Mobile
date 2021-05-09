@@ -136,30 +136,30 @@ button, input{
     color:#00acee;
 }
 
-@media only screen and (min-width: 400px){
+/* @media only screen and (min-width: 400px){ */
 /* 400px - Large Phones */
 
-}
+/* } */
 
-@media only screen and (min-width: 568px){
+/* @media only screen and (min-width: 568px){ */
     /* 568px - Landscape Mobile */
 
-}
+/* } */
 
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px){ */
     /* 768px - Tablet */
 
-}
+/* } */
 
-@media only screen and (min-width: 1024px){
+/* @media only screen and (min-width: 1024px){ */
     /* 1024px - Small Desktop (Laptops) */
 
-}
+/* } */
 
-@media only screen and (min-width: 1300px){
+/* @media only screen and (min-width: 1300px){ */
     /* 1300px - Normal Desktop */
 
-}
+/* } */
 
 
 /* body {
