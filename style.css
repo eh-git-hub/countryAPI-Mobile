@@ -7,8 +7,12 @@
     padding: 20px;
 }
 
+.container{
+    margin-top: 11rem;
+}
+
 .pageHeader{
-    margin: 0px;
+    margin: 10px;
     font-size: 6rem;
     font-weight: lighter;
     text-align: center;
@@ -50,7 +54,8 @@
     text-shadow: 0 8px 17px rgba(0,0,0,0.8);
 }
 
-#countryGuessInput{
+button, input{
+    width: 20rem;
     text-align: center;
     padding: 24px 32px;
     border-radius: 15px;
@@ -61,63 +66,101 @@
     font-size: 1rem;
     letter-spacing: 2px;
     text-shadow: 0 8px 17px rgba(0,0,0,0.8);
-    margin:5px;
+    margin:10px;
 }
 
-#randomCountryButton {
-    padding: 24px 32px;
-    border-radius: 15px;
-    background-color: rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
-    font-size: 1rem;
-    letter-spacing: 2px;
-    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
-    margin:5px;
+#countryGuessInput{
+    text-align: center;
+}
+
+/* #randomCountryButton {
 }
 
 #submitButton{
-    padding: 24px 32px;
-    border-radius: 15px;
-    background-color: rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
-    font-size: 1rem;
-    letter-spacing: 2px;
-    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
-    margin:5px;
+    
 }
 
 #restartButton{
-    padding: 24px 32px;
-    border-radius: 15px;
-    background-color: rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(30px);
-    color: rgba(255,255,255,0.8);
-    font-size: 1rem;
-    letter-spacing: 2px;
-    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
-    margin:5px;
-}
+   
+} */
 
 .flex{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 20px;
 }
 
-.flex-container{
+.flex-container-sig{
     position: fixed;
-    bottom: 0;
-    left: 1;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    margin-left: 20px;
+    color: rgba(255,255,255,0.8);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 8px 17px rgba(0,0,0,0.8);
+}
+
+.flex-container-social{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
     color: rgba(255,255,255,0.8);
     font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 0 8px 17px rgba(0,0,0,0.8);
 }
+
+#linkedin{
+    font-size: 2rem;
+    margin: 5px;
+    color: #2867B2;
+    fill: white;
+}
+
+#github{
+    font-size: 2rem;
+    margin: 5px;
+    color: #211F1F;
+    fill: white;
+}
+
+#twitter{
+    font-size: 2rem;
+    margin: 5px;
+    color:#00acee;
+}
+
+@media only screen and (min-width: 400px){
+/* 400px - Large Phones */
+
+}
+
+@media only screen and (min-width: 568px){
+    /* 568px - Landscape Mobile */
+
+}
+
+@media only screen and (min-width: 768px){
+    /* 768px - Tablet */
+
+}
+
+@media only screen and (min-width: 1024px){
+    /* 1024px - Small Desktop (Laptops) */
+
+}
+
+@media only screen and (min-width: 1300px){
+    /* 1300px - Normal Desktop */
+
+}
+
 
 /* body {
     background: linear-gradient(to bottom right, #BC3131, #B5324D, #AC3370, #A5338C, #9E34A9);
