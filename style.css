@@ -141,7 +141,6 @@ input {
   }
   .card {
     height: 15rem;
-    /* width: 80%; */
 }
 
 /* 568px - Landscape Mobile */
@@ -149,9 +148,6 @@ input {
   .body {
     color: red;
   }
-  .card {
-    width: 50%;
-}
 }
 
 /* 768px - Tablet */
