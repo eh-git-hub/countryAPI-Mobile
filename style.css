@@ -29,14 +29,14 @@
 
 #score {
   font-size: 0.7rem;
-  margin: 5px;
+  margin: 4px;
   text-shadow: 0 8px 17px rgba(0, 0, 0, 0.8);
   font-family: "Orbitron", sans-serif;
 }
 
 #counter {
   font-size: 0.7rem;
-  margin: 5px;
+  margin: 4px;
   text-shadow: 0 8px 17px rgba(0, 0, 0, 0.8);
   font-family: "Orbitron", sans-serif;
 }
@@ -72,6 +72,7 @@ input {
   text-shadow: 0 8px 17px rgba(0, 0, 0, 0.8);
   margin: 4px;
   text-align: center;
+  cursor: pointer;
 }
 
 #randomCountryButton {
@@ -140,13 +141,72 @@ input {
     color: blue;
   }
   .card {
-    height: 15rem;
+    height: 10rem;
+  }
 }
 
 /* 568px - Landscape Mobile */
 @media screen and (min-width: 568px) {
   .body {
     color: red;
+    padding: 5px;
+  }
+
+  .pageHeader {
+    margin: 2px;
+    font-size: 1.5rem;
+  }
+
+  #score {
+    margin-left: 80px;
+  }
+
+  #counter {
+    margin-right: 80px;
+  }
+
+  .card {
+    margin: auto;
+    padding: 30px;
+    height: 6rem;
+    width: 40%;
+  }
+
+  #countryGuessInput {
+    height: 1.35rem;
+  }
+
+  #submitButton {
+    height: 3.4rem;
+  }
+
+  #restartButton {
+    height: 3.4rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 6px;
+  }
+
+  .flex-container-sig {
+    font-size: 0.7rem;
+  }
+
+  .flex-container-social {
+    font-size: 0.8rem;
+  }
+}
+
+/* 745px - Small Tablet */
+@media screen and (min-width: 745px) {
+  .body {
+    color: black;
+  }
+  #randomCountryButton {
+    height: 3.43rem;
   }
 }
 
@@ -154,6 +214,58 @@ input {
 @media screen and (min-width: 768px) {
   .body {
     color: green;
+  }
+
+  .pageHeader {
+    margin: 10px;
+    font-size: 3rem;
+  }
+
+  #score {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  #counter {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  button,
+  input {
+    padding: 24px 32px;
+    font-size: 0.7rem;
+  }
+
+  #countryGuessInput {
+    height: 1.5rem;
+  }
+
+  #randomCountryButton {
+    height: 4.5rem;
+  }
+
+  #submitButton {
+    height: 4.5rem;
+  }
+
+  #restartButton {
+    height: 4.5rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+  }
+
+  .flex-container-sig {
+    font-size: 1rem;
+  }
+
+  .flex-container-social {
+    font-size: 1.5rem;
   }
 }
 
@@ -167,6 +279,94 @@ input {
 /* 1300px - Normal Desktop */
 @media screen and (min-width: 1300px) {
   .body {
-    color: purple;
+    color: plum;
+  }
+
+  .pageHeader {
+    margin-bottom: 10px;
+  }
+
+  .flex-score-counter {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #score {
+    margin: 10px;
+  }
+
+  #counter {
+    margin: 10px;
+  }
+
+  .card {
+    height: 20rem;
+    width: 40%;
+  }
+
+  #countryGuessInput {
+    padding: 24px 32px;
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  #submitButton {
+    padding: 24px 32px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  #randomCountryButton {
+    padding: 24px 32px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  #restartButton {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .flex-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 10px;
+  }
+
+  .flex-container-social {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+
+  #linkedin {
+    font-size: 2rem;
+    margin: 5px;
+  }
+
+  #github {
+    font-size: 2rem;
+    margin: 5px;
+  }
+
+  #twitter {
+    font-size: 2rem;
+    margin: 5px;
   }
 }
